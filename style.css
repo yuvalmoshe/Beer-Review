@@ -5,3 +5,51 @@ form {
 .user-post, .user-review {
   font-weight: bold;
 }
+
+.select{
+  border-radius: 5px;
+  width: 50px;
+  height: 33px;
+  position: absolute;
+  top: 218px;
+  left: 260px;
+}
+
+ .row{
+  font-family: 'Handlee', cursive;
+  height: 480px;
+  width: 574px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  padding: 20px;
+  background-image: url("http://www.bierista.nl/biernieuws/wp-content/uploads/2013/10/bierista-nieuws-belgische-brouwers-campagne-meer-bier-drinken-870x489.jpg");
+  border-style: solid;
+  border-color: white;
+} 
+
+.post-beer{
+  width: 75px;
+  height: 38px;
+  border-radius: 5px;
+  background-color: rgba(255, 166, 0, 0.438);
+  font-size: 16px;
+}
+
+.bg-image {
+  background-image: url("http://www.bierista.nl/biernieuws/wp-content/uploads/2013/10/bierista-nieuws-belgische-brouwers-campagne-meer-bier-drinken-870x489.jpg");
+
+  filter: blur(4px);
+  -webkit-filter: blur(5px);
+  
+  height: 626px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
